@@ -1,9 +1,9 @@
-# Wieght Conversation Program
+# Weight Conversation Program
 
-Wieght = float(input("Enter Your Wieght: "))
+Weight = float(input("Enter Your Weight: "))
 Unit = input("Enter unit in Kilograms or Pounds (Kg/Lb): ")
 
 if Unit == "Kg":
-    Wieght = Wieght * 2.20462
+    Weight = Weight * 2.20462
     Unit = "lbs."
-    print(f"Your Wieght is {Wieght} lbs.")
+    print(f"Your Weight is {Weight} lbs.")
