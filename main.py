@@ -13,4 +13,5 @@ elif Unit == "L":
     Unit = "kg"
     print(f"Your Weight is {round(Weight, 1)} kgs.")
 
-
+else:
+    print(f"{Unit} was not valid unit!")
