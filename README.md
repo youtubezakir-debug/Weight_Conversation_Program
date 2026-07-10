@@ -1,54 +1,28 @@
-# ⚖️ Weight Conversion Program
+# Weight Conversion Program
 
-A simple Python program that converts weight between **Kilograms (kg)** and **Pounds (lb)**. The user enters a weight value, selects the unit, and the program displays the converted result.
+A Python program that converts weight between different units 
+(kilograms, pounds).
 
-## 🚀 Features
+## Why I Built This
+After the calculator project, I wanted to practice working with 
+real-world conversion logic and multiple unit systems — something 
+closer to a problem people actually run into.
 
-- Convert **Kilograms (kg) → Pounds (lb)**
-- Convert **Pounds (lb) → Kilograms (kg)**
-- Easy-to-use command-line interface
-- Beginner-friendly Python project
+## What It Does
+- Takes a weight value and its unit as input
+- Converts it to kgs/lbs units
+- Displays all converted values clearly
 
-## 🛠️ Technologies Used
+## What I Learned
+- Writing reusable functions for different conversion formulas
+- Structuring a program so it's easy to add new units later
+- Formatting output so it's clean and easy to read
 
-- Python 3
+## How to Run
+​```bash
+python weight_converter.py
+​```
 
-## 📂 How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone <repository-link>
-   ```
-
-2. Open the project folder.
-
-3. Run the program:
-   ```bash
-   main.py
-   ```
-
-## 💻 Example
-
-```
-Enter Your Weight: 70
-Enter Unit (Kg/Lb): Kg
-
-Your Weight in Pounds is: 154.32 lb
-```
-
-## 🎯 What I Learned
-
-- Taking user input
-- Using conditional statements (`if` / `elif` / `else`)
-- Performing arithmetic calculations
-- Displaying formatted output with f-strings
-
-## 👨‍💻 About Me
-
-Hi, I'm **Zakir**, a passionate beginner Python programmer from Pakistan. I'm building Python projects to strengthen my programming skills and create a strong GitHub portfolio for future opportunities in Software Engineering and Computer Science.
-
-- 🌱 Currently learning: Python
-- 💻 Interested in: Software Engineering & Computer Science
-- 🚀 Goal: Build real-world projects and continuously improve my coding skills
-
-Feel free to explore my repositories and follow my learning journey!
+## Next Steps
+I want to turn this into a general unit-converter (length, temperature, 
+weight) as a single tool.
