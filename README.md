@@ -1,7 +1,7 @@
 # Weight Conversion Program
 
-A Python program that converts weight between different units 
-(kilograms, pounds).
+A Python program that converts weight between kilograms units 
+pounds and vise-versa.
 
 ## Why I Built This
 After the calculator project, I wanted to practice working with 
